@@ -5,12 +5,12 @@
 	$.fn.MainDataInIt = function (){
         // $.Loading.fadeOut(fadeTime, function(){
             $.Body.ClickInIt();
-            $.Body.ResizeInIt();
+            // $.Body.ResizeInIt();
             $('.slider').slick({
                 arrows: false,
                 dots: true,
                 infinite: true,
-                autoplay: true,
+                autoplay: false,
                 autoplaySpeed: 5000,
                 pauseOnHover:false,
                 dotsClass: 'custom-dots',
